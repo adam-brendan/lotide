@@ -1,7 +1,3 @@
-const assertArraysEqual = (arr1, arr2) => {
-    return eqArrays(arr1, arr2) ? console.log("✅✅✅ These arrays are equal!") : console.log("🛑🛑🛑 These arrays are NOT equal!")
-}
-
 const eqArrays = (arr1, arr2) => {
     if (arr1.length !== arr2.length) {
         return false;
@@ -15,7 +11,4 @@ const eqArrays = (arr1, arr2) => {
     }
 }
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-assertArraysEqual([1, 2, 3], [3, 2, 1]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", 3]);
+module.exports = eqArrays;
