@@ -1,4 +1,8 @@
 const tail = require("../tail");
-const assertEqual = require("../assertEqual");
+const assert = require("chai").assert;
 
-assertEqual(tail([2]).length, 0)
+describe("#tail", () => {
+    it("returns 0 for tail([2]).length", () => {
+        assert.strictEqual(tail([2]).length, 0)
+    });
+});
