@@ -26,9 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertArraysEqual`: checks if two arrays are equal
-* `assertEqual`: compares an actual input with expect output to make an assertion
-* `assertObjectsEqual`: checks if two objects are equal
 * `countLetters`: creates an object with the count of each letter in a string
 * `countOnly`: counts the instances of given values in an array
 * `eqArrays`: checks if two arrays are equal
