@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@adam-brendan/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "a collection of useful javascript utility and test functions",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/adam-brendan/lotide.git"
   },
-  "author": "",
+  "author": "Adam Craveiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adam-brendan/lotide/issues"
