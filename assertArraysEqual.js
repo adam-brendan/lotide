@@ -1,5 +1,5 @@
-const assertArraysEqual = (arr1, arr2, actual, expected) => {
-    eqArrays(arr1, arr2) === true ? console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}.`) : console.log(`🛑🛑🛑 Assertion failed: ${actual} !== ${expected}.`)
+const assertArraysEqual = (arr1, arr2) => {
+    eqArrays(arr1, arr2) === true ? console.log(`✅✅✅ Assertion passed: ${arr1} === ${arr2}.`) : console.log(`🛑🛑🛑 Assertion failed: ${arr1} !== ${arr2}.`)
 }
 
 const eqArrays = (arr1, arr2) => {
